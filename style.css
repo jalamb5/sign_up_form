@@ -7,10 +7,33 @@
 
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 h1 {
   font: 2em "cairo_playregular";
 }
 
 p {
   font: 1em "cairo_playregular";
+}
+
+.form-page {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.brand-panel {
+  background-image: url("./assets/flower-bg.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
 }
