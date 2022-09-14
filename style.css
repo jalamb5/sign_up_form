@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'cairo_playregular';
+  src: url('./assets/cairoplay-variablefont_slntwght-webfont.woff2') format('woff2'),
+       url('./assets/cairoplay-variablefont_slntwght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1 {
+  font: 2em "cairo_playregular";
+}
+
+p {
+  font: 1em "cairo_playregular";
+}
