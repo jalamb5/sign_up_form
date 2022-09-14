@@ -31,9 +31,15 @@ p {
   background-size: cover;
   height: 100%;
   width: 40%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 .banner {
   display: flex;
   align-items: center;
+  background: rgba(252, 249, 249, 0.644);
+  width: 100%;
+
 }
