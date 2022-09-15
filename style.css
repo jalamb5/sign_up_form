@@ -23,15 +23,21 @@ p {
 body {
   display: flex;
   height: 100%;
+  background-color: aliceblue;
 }
 
 fieldset {
   border: none;
   display: flex;
   flex-wrap: wrap;
+  margin-left: -12px;
 }
 label {
   flex: 50%;
+}
+
+button, .description, .login {
+  margin: 5%;
 }
 
 .brand-panel {
@@ -56,7 +62,8 @@ label {
 
 .credit {
   color: whitesmoke;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
+  font-size: .85rem;
 }
 
 .credit a:link{
@@ -66,5 +73,11 @@ label {
 .content-panel {
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  justify-content: center;
 }
+
+.form-container {
+  background-color: white;
+  padding: 5%;
+}
+
