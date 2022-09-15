@@ -22,7 +22,6 @@ p {
 
 body {
   display: flex;
-  flex-direction: column;
   height: 100%;
 }
 
@@ -30,7 +29,7 @@ body {
   background-image: url("./assets/flower-bg.jpg");
   background-size: cover;
   height: 100%;
-  width: 40%;
+  min-width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,4 +52,10 @@ body {
 
 .credit a:link{
   color: lightseagreen;
+}
+
+.content-panel {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
 }
