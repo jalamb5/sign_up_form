@@ -48,4 +48,9 @@ body {
 
 .credit {
   color: whitesmoke;
+  margin-bottom: 5px;
+}
+
+.credit a:link{
+  color: lightseagreen;
 }
