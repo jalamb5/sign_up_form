@@ -25,6 +25,15 @@ body {
   height: 100%;
 }
 
+fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+label {
+  flex: 50%;
+}
+
 .brand-panel {
   background-image: url("./assets/flower-bg.jpg");
   background-size: cover;
