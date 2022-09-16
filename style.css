@@ -38,6 +38,15 @@ label {
   margin-top: 5px;
 }
 
+input {
+  border: 1px solid lightgray;
+  border-radius: .2rem;
+}
+
+input:focus {
+  border-color: black;
+}
+
 button, .description, .login {
   margin: 5%;
 }
